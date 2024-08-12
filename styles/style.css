@@ -61,7 +61,7 @@ button{
 
 button:hover{
     /* background: linear-gradient(#a5be11,blue, red); */
-    transform: translateX(5px);
+    transform: translateX(10px);
     background-color: #e0e0e0;
 }
 
