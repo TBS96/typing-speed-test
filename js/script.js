@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
             inputBox.setAttribute('disabled', 'true');
 
             resultDisplay.innerHTML = `
-                <p>You typed at speed of <span style="font-weight: bold;">${wordsPerMin.toFixed(2)} </span>Words/Minute</p>
+                <p>Your typing speed: <span style="font-weight: bold;">${wordsPerMin.toFixed(2)} </span>Words/Minute</p>
                 <p>You took <span style="font-weight: bold;">${((endTime - startTime) / 1000)}</span>s to write <span style="color: red">'${currentQuote}'</span></p>
             `;
         }
