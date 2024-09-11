@@ -53,4 +53,8 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
         }
     }
+	
+	window.onbeforeunload = () => {
+		return '';
+	}
 });
